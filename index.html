@@ -12,15 +12,125 @@
 </head>
 
 <body>
-  <h1>WhatsApp</h1>
 
-  <i class="material-icons">search</i>
-  <i class="material-icons">message</i>
-  <i class="material-icons">more_vert</i>
-  <i class="material-icons">done</i>
-  <i class="material-icons">done_all</i>
-  <i class="material-icons">mic</i>
-  <i class="material-icons">photo_camera</i>
+  <header class="header">
+    <div class="header__main">
+      <h1 class="header__title">WhatsApp</h1>
+      <div class="header__options">
+        <i class="material-icons header__icon">search</i>
+        <i class="material-icons header__icon">message</i>
+        <i class="material-icons header__icon">more_vert</i>
+      </div>
+    </div>
+    <nav class="header__nav nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <h2 class="nav__text">CALLS</h2>
+        </li>
+        <li class="nav__item nav__item--active">
+          <h2 class="nav__text">CHATS</h2>
+        </li>
+        <li class="nav__item">
+          <h2 class="nav__text">CONTACTS</h2>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="chats">
+    <ul class="chats__list">
+      <li class="chats__item chat">
+        <img class="chat__photo" src="https://picsum.photos/120" alt="Profile">
+        <div class="chat__container">
+          <div class="chat__info">
+            <h2 class="chat__name">Whitmans Chat</h2>
+            <p class="chat__text">Ned: Yeah, I think I now what</p>
+          </div>
+          <div class="chat__extra chat__extra--active">
+            <div class="chat__time">11:48 AM</div>
+            <div class="chat__amount">3</div>
+          </div>
+        </div>
+      </li>
+      <li class="chats__item chat">
+        <img class="chat__photo" src="https://picsum.photos/127" alt="Profile">
+        <div class="chat__container">
+          <div class="chat__info">
+            <h2 class="chat__name">Stewart Family</h2>
+            <p class="chat__text">Steve: Great, thanks!</p>
+          </div>
+          <div class="chat__extra chat__extra--active">
+            <div class="chat__time">11:45 AM</div>
+            <div class="chat__amount">1</div>
+          </div>
+        </div>
+      </li>
+      <li class="chats__item chat">
+        <img class="chat__photo" src="https://picsum.photos/128" alt="Profile">
+        <div class="chat__container">
+          <div class="chat__info">
+            <h2 class="chat__name">Alice Whitman</h2>
+            <p class="chat__text">
+              <i class="material-icons">photo_camera</i> &nbsp;
+              <span>Image</span>
+            </p>
+          </div>
+          <div class="chat__extra">
+            <div class="chat__time">YESTERDAY</div>
+            <div class="chat__amount"></div>
+          </div>
+        </div>
+      </li>
+      <li class="chats__item chat">
+        <img class="chat__photo" src="https://picsum.photos/121" alt="Profile">
+        <div class="chat__container">
+          <div class="chat__info">
+            <h2 class="chat__name">Jack Whitman</h2>
+            <p class="chat__text">
+              <i class="material-icons check check--active">done_all</i> &nbsp;
+              <i class="material-icons">mic</i> &nbsp;
+              <span>0:04</span>
+            </p>
+          </div>
+          <div class="chat__extra">
+            <div class="chat__time">FRIDAY</div>
+            <div class="chat__amount"></div>
+          </div>
+        </div>
+      </li>
+      <li class="chats__item chat">
+        <img class="chat__photo" src="https://picsum.photos/122" alt="Profile">
+        <div class="chat__container">
+          <div class="chat__info">
+            <h2 class="chat__name">Lunch Group</h2>
+            <p class="chat__text">
+              <span>You: Sounds good!</span>
+            </p>
+          </div>
+          <div class="chat__extra">
+            <div class="chat__time">FRIDAY</div>
+            <div class="chat__amount"></div>
+          </div>
+        </div>
+      </li>
+      <li class="chats__item chat">
+        <img class="chat__photo" src="https://picsum.photos/123" alt="Profile">
+        <div class="chat__container">
+          <div class="chat__info">
+            <h2 class="chat__name">Jane Pearson</h2>
+            <p class="chat__text">
+              <span>🔥💭</span>
+            </p>
+          </div>
+          <div class="chat__extra">
+            <div class="chat__time">FRIDAY</div>
+            <div class="chat__amount"></div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </main>
+
 </body>
 
 </html>

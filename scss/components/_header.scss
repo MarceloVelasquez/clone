@@ -1,0 +1,26 @@
+.header {
+  background-color: $tealDark;
+  color: $white;
+
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  &__options {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+}
