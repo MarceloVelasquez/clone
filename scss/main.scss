@@ -1,5 +1,6 @@
-// Import all your scss files here
-
 @import 'init';
 @import 'colors';
-@import 'components/components';
+@import 'components/header';
+@import 'components/nav';
+@import 'components/chats';
+@import 'components/chat';
