@@ -1,29 +1,10 @@
-# Cloned
+# WhatsApp Cloned
 
-Repo para aplicaciones y webs clonadas hechas con HTML y CSS o SASS.
+WhatsApp hecho con HTML y SASS (UI).
 
-## Guía rápida
+Para ejecutar el código en tu PC puedes seguir al guía de instalación
+en https://github.com/MarceloVelasquez/cloned/tree/master#readme
 
-Cada rama del repositorio es una app o web clonada. Puedes usar la rama master para iniciar un proyecto propio o empezar a utilizar SCSS de manera rápida y simple.
+## Vistas
 
-Video explicación de instalación:  
-
-### Pre requisitos
-
-- Git
-- Node js
-- Algún editor de código
-
-### Instalación
-
-Ejecutar comando "install" para instalar las dependencias globales (Solo la primera vez)
-
-    npm install
-
-Ejecutar comando "scss" para correr el compilador de SASS y el comando "server" para iniciar el servidor local (En una terminal diferente cada uno).
-
-    npm run scss
-
-<!--  -->
-
-    npm run server
+- Chats
