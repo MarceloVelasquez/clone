@@ -1,0 +1,27 @@
+.post {
+  &__header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  &__photo {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  &__user {
+    margin-left: 0.8rem;
+    font-weight: bold;
+  }
+
+  &__spacer {
+    flex: auto;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+}

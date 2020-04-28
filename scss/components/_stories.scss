@@ -1,0 +1,82 @@
+.stories {
+  background-color: $light;
+
+  &__header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    overflow: scroll;
+  }
+
+  &__subtitle {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.story {
+  &__container {
+    margin: 0 1rem;
+    position: relative;
+  }
+
+  &--border &__container {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: linear-gradient(45deg, $orange, $purple);
+  }
+
+  &__image {
+    width: 4.6rem;
+    height: 4.6rem;
+    border-radius: 50%;
+  }
+
+  &--border &__image {
+    border: 3px $light solid;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+    box-sizing: border-box;
+  }
+
+  &__add {
+    position: absolute;
+    right: -0.2rem;
+    bottom: -0.2rem;
+    border-radius: 50%;
+    border: 1px $light solid;
+    background-color: $light;
+    color: $blue;
+  }
+
+  &__live {
+    width: 2.4rem;
+    background-color: $magenta;
+    color: $light;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    border: 3px $light solid;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 1.3rem;
+    box-sizing: border-box;
+  }
+
+  &__user {
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+.appbar {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  border-bottom: 1px $gray solid;
+  background-color: $light;
+
+  &__section:nth-child(2) {
+    display: flex;
+    align-items: center;
+  }
+
+  &__section:last-child {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__logo {
+    margin-top: 0.2rem;
+    height: 2rem;
+  }
+
+  &__icon {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+  }
+}

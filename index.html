@@ -13,7 +13,92 @@
 </head>
 
 <body>
+  <header class="appbar">
+    <section class="appbar__section">
+      <i class="material-icons-outlined appbar__icon">photo_camera</i>
+    </section>
+    <section class="appbar__section">
+      <img class="appbar__logo" src="/assets/logo.png" alt="Instagram">
+    </section>
+    <section class="appbar__section">
+      <i class="material-icons appbar__icon">live_tv</i>
+      <i class="material-icons-outlined appbar__icon">near_me</i>
+    </section>
+  </header>
 
+  <article class="stories">
+    <section class="stories__header">
+      <div class="stories__title">Stories</div>
+      <div class="stories__subtitle">
+        <i class="material-icons">play_arrow</i>
+        <span>Watch all</span>
+      </div>
+    </section>
+    <ul class="stories__list">
+      <li class="story">
+        <div class="story__container">
+          <img class="story__image" src="https://picsum.photos/200" alt="Profile">
+          <div class="story__add">
+            <i class="material-icons">add_circle</i>
+          </div>
+        </div>
+        <div class="story__user">Your story</div>
+      </li>
+      <li class="story story--border">
+        <div class="story__container">
+          <img class="story__image" src="https://picsum.photos/199" alt="Profile">
+          <div class="story__live"> LIVE </div>
+        </div>
+        <div class="story__user">ninanyc</div>
+      </li>
+      <li class="story story--border">
+        <div class="story__container">
+          <img class="story__image" src="https://picsum.photos/198" alt="Profile">
+        </div>
+        <div class="story__user">benjirenzo</div>
+      </li>
+      <li class="story story--border">
+        <div class="story__container">
+          <img class="story__image" src="https://picsum.photos/197" alt="Profile">
+        </div>
+        <div class="story__user">ashoke</div>
+      </li>
+      <li class="story story--border">
+        <div class="story__container">
+          <img class="story__image" src="https://picsum.photos/197" alt="Profile">
+        </div>
+        <div class="story__user">ian</div>
+      </li>
+    </ul>
+  </article>
+
+  <article class="feed">
+    <div class="post">
+      <header class="post__header">
+        <img class="post__photo" src="https://picsum.photos/100" alt="Photo">
+        <span class="post__user">elizabethgilmore</span>
+        <div class="post__spacer"></div>
+        <i class="material-icons post__more">more_horiz</i>
+      </header>
+      <img class="post__image" src="https://picsum.photos/500" alt="Photo">
+    </div>
+  </article>
+
+  <nav class="nav">
+    <div class="nav__item"><i class="nav__icon material-icons">home</i></div>
+    <div class="nav__item"><i class="nav__icon material-icons">search</i></div>
+    <div class="nav__item"><i class="nav__icon material-icons-outlined">add_box</i></div>
+    <div class="nav__item nav__item--active">
+      <i class="nav__icon material-icons">favorite_border</i>
+      <div class="nav__notification">
+        <i class="material-icons nav__icon-notification">favorite</i> &nbsp; <span>2</span>
+        &nbsp; &nbsp;
+        <i class="material-icons nav__icon-notification">mode_comment</i> &nbsp; <span>1</span>
+      </div>
+      <div class="nav__triangle"></div>
+    </div>
+    <div class="nav__item"><i class="nav__icon material-icons">person_outline</i></div>
+  </nav>
 </body>
 
 </html>

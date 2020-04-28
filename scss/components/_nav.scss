@@ -1,0 +1,63 @@
+.nav {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: $white;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+
+  &__item {
+    position: relative;
+
+    &--active::after {
+      content: '';
+      background-color: $red;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 0;
+      left: 1.3rem;
+    }
+  }
+
+  &__notification {
+    width: 6.4rem;
+    position: absolute;
+    top: -4rem;
+    left: -1.9rem;
+
+    padding: 0.6rem;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: $white;
+    background-color: $red;
+    box-sizing: border-box;
+  }
+
+  &__icon-notification {
+    font-size: 1.2rem;
+  }
+
+  &__triangle {
+    width: 2rem;
+    height: 1.5rem;
+    position: absolute;
+    top: -2.2rem;
+    left: 0.4rem;
+    color: $white;
+    background-color: $red;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 80%);
+  }
+
+  &__icon {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+  }
+}
