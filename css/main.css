@@ -43,8 +43,7 @@ body {
   .stories__list {
     list-style: none;
     margin: 0;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    padding: 0 0 1rem 0;
     display: flex;
     overflow: scroll; }
   .stories__subtitle {
